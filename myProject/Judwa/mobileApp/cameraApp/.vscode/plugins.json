@@ -1,0 +1,1 @@
+{"plugins":["cordova-plugin-camera","cordova-plugin-compat","ionic-plugin-keyboard","cordova-plugin-whitelist","cordova-plugin-device","cordova-plugin-splashscreen","cordova-plugin-ionic-webview","com.synconset.imagepicker","cordova-plugin-screen-orientation","es6-promise-plugin","cordova-plugin-network-information","cordova.plugins.diagnostic"]}

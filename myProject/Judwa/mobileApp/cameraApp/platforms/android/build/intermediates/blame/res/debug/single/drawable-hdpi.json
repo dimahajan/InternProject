@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi/image_bg.9.png",
+        "source": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/res/drawable-hdpi/image_bg.9.png"
+    },
+    {
+        "merged": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi/loading_icon.png",
+        "source": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/res/drawable-hdpi/loading_icon.png"
+    }
+]

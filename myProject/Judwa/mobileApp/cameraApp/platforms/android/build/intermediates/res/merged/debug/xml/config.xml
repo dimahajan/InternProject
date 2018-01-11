@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="ImagePicker">
+        <param name="android-package" value="com.synconset.ImagePicker" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Diagnostic">
+        <param name="android-package" value="cordova.plugins.Diagnostic" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Judwaa2</name>
+    <description>An awesome Ionic/Cordova app.</description>
+    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://192.168.15.62:8100" />
+    <allow-navigation href="http://192.168.15.95:8100" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="resources/android/icon/logo.png" />
+    <icon density="mdpi" src="resources/android/icon/logo.png" />
+    <icon density="hdpi" src="resources/android/icon/logo.png" />
+    <icon density="xhdpi" src="resources/android/icon/logo.png" />
+    <icon density="xxhdpi" src="resources/android/icon/logo.png" />
+    <icon density="xxxhdpi" src="resources/android/icon/logo.png" />
+    <splash density="land-ldpi" src="resources/android/splash/logo.png" />
+    <splash density="land-mdpi" src="resources/android/splash/logo.png" />
+    <splash density="land-hdpi" src="resources/android/splash/logo.png" />
+    <splash density="land-xhdpi" src="resources/android/splash/logo.png" />
+    <splash density="land-xxhdpi" src="resources/android/splash/logo.png" />
+    <splash density="land-xxxhdpi" src="resources/android/splash/logo.png" />
+    <splash density="port-ldpi" src="resources/android/splash/logo.png" />
+    <splash density="port-mdpi" src="resources/android/splash/logo.png" />
+    <splash density="port-hdpi" src="resources/android/splash/logo.png" />
+    <splash density="port-xhdpi" src="resources/android/splash/logo.png" />
+    <splash density="port-xxhdpi" src="resources/android/splash/logo.png" />
+    <splash density="port-xxxhdpi" src="resources/android/splash/logo.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="ScrollEnabled" value="false" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="ShowSplashScreen" value="false" />
+    <preference name="SplashScreen" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+</widget>

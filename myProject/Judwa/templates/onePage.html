@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+    <head>
+	<link rel="stylesheet" href="static/css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/font-awesome/css/font-awesome.min.css">
+ 	<script src="static/js/jquery.min.js"></script>
+	<script src="static/css/bootstrap/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="static/css/app.css">
+	<script src="static/js/app.js"></script>
+	<script src="static/js/html2canvas.min.js"></script>
+    </head>
+    <body class="bod2">
+      <div id="wraper">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>                        
+      		</button>
+		<a class="navbar-brand brand-name" href="/">
+			<img src='static/backgorundImg/logo.png' alt='logo'>
+			<span id="jud">Judwa 2</span>
+		</a>
+	   </div>
+	   <div class="collapse navbar-collapse" id="myNavbar" >
+	      <ul class="nav navbar-nav navbar-right">
+	        <li id="l2"><a href="/about">About</a></li>
+		<li><a id="a1"><span id="l1" data-toggle="tooltip" data-placement="bottom" title="Visit Count!" class="badge"> {{visit}}</span></a></li>
+	     </ul>
+	  </div>
+	</div>
+       </nav>
+     <div id="holder" clas="holder-default">
+      <form id="form" method="POST" enctype="multipart/form-data">
+
+	 <div class="flex-container" id="c2">
+		  <div class="flex-item"> 
+					<h2 id="title">	Which celebrity is your Judwaa!</h2>
+			<div class="flex-container " id="c1">
+				<div class="flex-item" id="i1">
+					<div class="panel" id="p1">
+				  		<div class="flex-container c0">
+						     <div class="flex-item" id="f1">
+						       <div id="dd">
+							<input type="text" id="t1" name="t1">
+							<input type="text" id="filename" name="filename">
+							<img id="output_image" class="img-rounded" src="{{imgpath}}" alt="{{fname}}" onload="formSubmit()" onclick="getElementById('file1').click()" data-toggle="tooltip" title="click on Image to upload another image!!" >
+							<video class="mejs-player" id="v1" autoplay></video>
+							<div id="urlAccess">
+								Enter image url:
+								<input type="text" id="imageUrl">
+									</br>
+							        <button type="button" id="okb" class="btn btn-primary btn-sm" onclick="fromUrl()">
+          						 		GO
+        					     		</button>
+									</br>
+								<div id="accessError"></div>
+							</div>
+						       </div>
+							<h3 class="overflow ellipsis" id="fname" data-toggle="tooltip" title="{{fname}}">{{fname}}</h3>
+						     </div>
+				    		</div>
+						<div id="btn2"> 
+							<label id="b2"  class="btn btn-primary btn-file">
+								<span class="glyphicon glyphicon-picture"></span>
+    								Browse 
+    								<input id="file1" name="file" type="file" class="file" accept="image/*" onchange="load(event)" >
+							</label>
+						</div>
+						<div id="btn3"> 
+						     <button type="button" id="url" class="btn btn-primary btn-sm" onclick="getUrl()">
+          						<span class="glyphicon glyphicon-picture"></span> From Url
+        					     </button>
+						</div>
+						<div id="btn1"> 
+						     <button type="button" id="camera" class="btn btn-primary btn-sm" onclick="startCamera()">
+          						<span class="glyphicon glyphicon-camera"></span> Camera
+        					     </button>
+						</div>
+				  	</div>
+				</div>
+				<div class="flex-item" id="glyp1">
+					<h2> <i class="glyphicon glyphicon-resize-horizontal" ></i> <h2>
+				</div>
+				<div class="flex-item" id="i2">
+				    <div class="panel">
+				  	<div class="flex-container c0">
+						<div class="flex-item" id="f2">
+							<div id="d2">
+								<img id="op" class="img-rounded" src="{{ res }}" alt="{{hname}}" onload="setImgOP2()">
+							</div>
+							<div id="d1">
+								<i class="fa fa-spinner fa-spin"></i>
+							</div>
+								<h3 class="overflow ellipsis" id="hname" data-toggle="tooltip" title="{{hname}}">{{hname}}</h3>
+						</div>
+					</div>
+					<div id="pbar">
+							<div class="progress" >
+								<div id="pw" class="progress-bar" role="progressbar" aria-valuenow="{{per}}" aria-valuemin="0" aria-valuemax="100" style="width:{{per}}%;">
+										{{per}}% Match
+								</div>
+							</div>
+					</div>
+			             </div>
+		                </div>
+	          	</div>
+	       	 </div>
+		<div class="flex-item" style="display:{{ disp }}">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-4 col-sm-4 col-xl-4 col-xl-offset-4 col-lg-4 col-lg-offset-4 col-sm-offset-4 col-md-offset-4">
+						     <button  id="fb" type="button" class="btn btn-primary btn-sm" onclick="submitAndShare()">
+          						<i class="fa fa-facebook fa-2"></i> Share on Facebook	
+        					     </button>
+			
+		     </div>
+		    </div>
+		  </div>
+		 </div> 
+	         <div class="flex-item">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-10 col-md-offset-1">
+                        <p id="msg">
+
+				<h4>	To play the game, click on the camera button. It will capture your image and will show a celebrity image in the box on the right with highest percentage match.</h4>
+				<h4> Although this application uses sophisticated machine learning techniques, we want to showcase the lighter side of it. </h4>
+		</br>
+                        </p>
+		     </div>
+		    </div>
+		  </div>
+                 </div>
+	   </div>
+         </form>
+	</div>
+	<footer class="text-center">
+	  <p> 
+		Copyright <i class="fa fa-copyright"></i> 2017 Coriolis Technologies. All Rights Reserved.
+		 <a href="http://www.coriolis.co.in/" data-toggle="tooltip" title="Visit Coriolis Technologies">www.coriolis.co.in</a>
+	  </p> 
+	</footer>
+       </div>
+     </body>
+</html>

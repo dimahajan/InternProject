@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/res/xml/config.xml"
+    }
+]

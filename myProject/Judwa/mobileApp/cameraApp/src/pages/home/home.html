@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="color1">
+    <ion-title>
+      <img src="./assets/imgs/logo.png">
+      <span id="title"> Judwaa2</span>
+      <ion-icon class="about" name="information" (click)="about()"></ion-icon>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="block">
+      <button class="b1" [disabled]="disabled1" ion-fab (click)="takePhoto()">
+            <ion-icon class="myIcon" name="camera" > </ion-icon>
+      </button>
+      <button [disabled]="disabled2" class="b2" ion-fab (click)="browsePhoto()">
+            <ion-icon class="myIcon" name="cloud-upload"  ></ion-icon>
+      </button>
+      <ion-slides class="slider" pager>
+          <ion-slide *ngFor="let ml of myList">
+              <div [class.hide]="ml[0]">
+                <h3>Which celebrity is your Judwaa!</h3>
+                <h6>To play the game, click on the camera button. It will capture your image and will show a celebrity image in the box on the right with highest percentage match.</h6>
+                <h6>Although this application uses sophisticated machine learning techniques, we want to showcase the lighter side of it. </h6>
+              </div>
+              <div [class.hide]="ml[1]">
+                <ion-spinner name="bubbles"></ion-spinner>
+              </div>
+              <div [class.hide]="ml[2]">
+                      <ion-badge class="imgTitle">{{ml[3]}}</ion-badge>
+                      <img  class="myimg" [src]="_DomSanitizer.bypassSecurityTrustUrl(ml[4])"/>
+                      <div ion-fab class="per" [class.hide]="ml[5]">
+                        <h2>{{ml[6]}}%</h2>
+                      </div>
+              </div>
+          </ion-slide>
+      </ion-slides>
+  </div>
+</ion-content>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_b6273d7e79babacc04b0d7fafdfc9243e0ed0ec6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.1.0_843e80f223e82d794e425ec287885a3fa5130147.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4633b1b0035cb6de82fb6e06f3c005f2ae7d092">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.3.0-debug_390a3817327c6e31124bf2f4dbcf75ee1c0f735d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_f31c43d0bc867a42be77d7ad01f98ce47bd0f069.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.1.0_73e27f5603053364dce0e62a0b26d639a5791d48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_baaa6ca949726338ae08d5551a212d3ca24761ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_4357353b6c66b29ec270222aad88a7e0e67708e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_dd6d582e8582adad696a701474f17b5c99d374eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/common-1.0.0_f327a039a2d071447ca5df4c25b9cab34659e043.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/common-1.0.0_f4ffb7d7259a93c45e3a1a3c9e3db291a7b7a43a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_97a37e5ac358a837762ccc536fc61c20362f2350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_f36e02fd42b08414f461d03abbf0a1833e8fe79d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_02b4a8787be448f6c0868514fb974fc843b4d224.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/home/sky/mobilApp/Judwa/mobileApp/cameraApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_ab1e57885cbe33151432222eef94e0a1030ca04d.jar" />
+    </item>
+
+</items>

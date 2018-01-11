@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+	<link rel="stylesheet" href="static/css/bootstrap/css/bootstrap.min.css">
+ 	<script src="static/js/jquery.min.js"></script>
+	<script src="static/css/bootstrap/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="static/css/share.css">
+	<script src="static/js/share.js"></script>
+	<script src="static/js/html2canvas.min.js"></script>
+    </head>
+    <body class="bod2">
+      <div id="wraper">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>                        
+      		</button>
+		<a class="navbar-brand brand-name" href="/">
+			<img src='static/backgorundImg/logo.png' alt='logo'>
+			<span>Judwa 2</span>
+		</a>
+	   </div>
+	   <div class="collapse navbar-collapse" id="myNavbar" >
+	      <ul class="nav navbar-nav navbar-right">
+	        <li id="l2"><a href="/about">About</a></li>
+		<li><a id="a1"><span id="l1" data-toggle="tooltip" data-placement="bottom" title="Visit Count!" class="badge"> {{visit}}</span></a></li>
+	     </ul>
+	  </div>
+	</div>
+       </nav>
+      <form id="form" method="POST" enctype="multipart/form-data">
+
+	 <div class="flex-container" id="c2">
+		  <div class="flex-item">
+		      <div id="pad"> 
+			<div class="flex-container " id="c1">
+				<div class="flex-item" id="i1">
+					<div class="panel">
+				  		<div class="flex-container c0">
+						     <div class="flex-item" >
+							<img id="output_image" class="img-rounded" src="{{imgpath}}" alt="{{fname}}" onload="setImgOP1()">
+						     </div>
+						     <div class="flex-item">
+							<h5 class="overflow ellipsis" id="fname">{{fname}}</h5>
+						     </div>
+				    		</div>
+				  	</div>
+				</div>
+				<div class="flex-item" >
+					<h2> <i id="ii1" class="glyphicon glyphicon-resize-horizontal" ></i> <h2>
+				</div>
+				<div class="flex-item" id="i2">
+				    <div class="panel">
+				  	<div class="flex-container c0">
+						<div class="flex-item">
+							<div id="d2">
+								 <input type="text" id="t1" name="t1">
+								<img id="op" class="img-rounded" src="{{ res }}" alt="{{hname}}" onload="setImgOP2()">
+							</div>
+						</div>
+						<div class="flex-item">
+							<h5 id="hname">{{hname}}</h5>
+						</div>
+					</div>
+					<div id="pbar">
+							<div class="progress" >
+								<div class="progress-bar" role="progressbar" aria-valuenow="{{per}}" aria-valuemin="0" aria-valuemax="100" style="width:{{per}}%;">
+										{{per}}% Match
+								</div>
+							</div>
+					</div>
+			             </div>
+		                </div>
+	          	</div>
+		      </div>
+	       	  </div>
+		  <div class="flex-item">
+		   <div class="container">
+		     <div class="row">
+		       <div class="col-md-2 col-sm-2 col-xl-2 col-xl-offset-5 col-lg-2 col-lg-offset-5 col-sm-offset-5 col-md-offset-5">
+						  <button  id="fb" type="button" class="btn btn-primary btn-sm" onclick="submitAndShare()">
+          						<i class="fa fa-facebook fa-2"></i> Share	
+        					     </button>
+			
+		       </div>
+		     </div>
+		   </div>
+		  </div> 
+	   </div>
+         </form>
+	<footer class="text-center">
+	  <p> 
+		Copyright <i class="fa fa-copyright"></i> 2017 Coriolis Technologies. All Rights Reserved.
+		 <a href="http://www.coriolis.co.in/" data-toggle="tooltip" title="Visit Coriolis Technologies">www.coriolis.co.in</a>
+	  </p> 
+	</footer>
+       </div>
+     </body>
+</html>
